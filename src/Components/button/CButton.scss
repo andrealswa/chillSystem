@@ -1,0 +1,29 @@
+@import '../../styles/tokens/colorTokens.scss';
+
+.cbutton {
+	padding: 1.125rem;
+	display: flex;
+	width: fit-content;
+	height: 25px;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition-property: all;
+	transition-duration: 0.5s;
+	border: 0.5px $color-primary solid;
+	background: transparent;
+	color: $color-primary;
+
+	&.cbutton--secondary {
+		border: 2px $color-primary solid;
+		background: $color-secondary;
+		color: $color-primary;
+	}
+
+	&:hover {
+		border: 0.5px $color-primary solid;
+		color: $color-secondary;
+		background-color: $color-primary;
+	}
+}

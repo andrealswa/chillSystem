@@ -1,3 +1,21 @@
+@import './tokens/colorTokens.scss';
+@import '../Components/button/CButton.scss';
+@import '../Components/card/CCard.scss';
+@import '../Components/text-input/CTextInput.scss';
+.main {
+	background: $color-background;
+	.App-header {
+		background: $color-background;
+	}
+	padding: 20px;
+}
+
+*,
+::before,
+::after {
+	box-sizing: border-box;
+}
+
 .App {
 	text-align: center;
 }
@@ -14,7 +32,6 @@
 }
 
 .App-header {
-	background-color: #282c34;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -22,6 +39,14 @@
 	justify-content: center;
 	font-size: calc(10px + 2vmin);
 	color: white;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	align-items: stretch;
 }
 
 .App-link {

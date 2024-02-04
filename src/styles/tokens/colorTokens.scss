@@ -1,0 +1,20 @@
+$color-background: radial-gradient(
+	circle,
+	rgba(61, 50, 242, 1) 0%,
+	rgba(155, 177, 250, 1) 0%,
+	rgba(197, 217, 219, 1) 60%,
+	rgba(146, 228, 248, 1) 100%,
+	rgba(134, 235, 255, 1) 100%
+);
+
+$color-background--darkmode: linear-gradient(
+	356deg,
+	rgba(61, 50, 242, 1) 0%,
+	rgba(0, 17, 78, 1) 0%,
+	rgba(42, 47, 55, 1) 100%,
+	rgba(48, 65, 68, 1) 100%,
+	rgba(146, 228, 248, 1) 100%
+);
+
+$color-primary: #00114e;
+$color-secondary: #9fb5f7;

@@ -1,0 +1,19 @@
+.ctextinput {
+	display: flex;
+	justify-content: center;
+	border: 0.5px $color-primary solid;
+	background-color: transparent;
+	padding: 1.125rem;
+
+	:focus,
+	:focus-visible,
+	:active {
+		outline: none !important;
+	}
+
+	input {
+		padding: 0;
+		border: none;
+		background-color: transparent;
+	}
+}
