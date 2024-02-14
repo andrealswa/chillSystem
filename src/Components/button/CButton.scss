@@ -1,4 +1,5 @@
 @import '../../styles/tokens/colorTokens.scss';
+@import '../../styles/tokens/sizeTokens.scss';
 
 .cbutton {
 	padding: 1.125rem;
@@ -14,6 +15,7 @@
 	border: 0.5px $color-primary solid;
 	background: transparent;
 	color: $color-primary;
+	border-radius: $border;
 
 	&.cbutton--secondary {
 		border: 2px $color-primary solid;
